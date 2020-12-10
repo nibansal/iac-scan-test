@@ -16,12 +16,11 @@ steps:
 - task: Prisma Cloud IaC Scan@3
   inputs:
     Path: '.'
-    prismaCloudService: 'api2sqlak8sdev'
+    prismaCloudService: 'api2slqak8sdev'
     High: '1'
     Medium: '1'
     Low: '1'
     Operator: 'or'
-
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
