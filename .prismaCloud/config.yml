@@ -27,3 +27,5 @@ variables:
   variable_files:
   - scan/rich-value-types/expressions/variables.tf
 
+tags:
+  tag: value1
