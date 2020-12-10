@@ -16,7 +16,7 @@ steps:
 - task: Prisma Cloud IaC Scan@3
   inputs:
     Path: '.'
-    prismaCloudService: 'api2slqak8sdev'
+    prismaCloudService: 'slqa2'
     High: '1'
     Medium: '1'
     Low: '1'
