@@ -28,4 +28,4 @@ terraform_012_parameters:
   - scan/rich-value-types/expressions/variables.tf
 
 tags:
-  tag: value1
+  tagtest: valuetest
