@@ -6,8 +6,8 @@ terraform {
     region = "us-east-1"
   }
   
-  resource "aws_s3_bucket" "foo" {
-    bucket = "my-tf-log-bucket"
+  resource "aws_s3_bucket" "foo-test" {
+    bucket = "my-tf-log-bucket-test"
     acl = "public-read-write"
   }
 
