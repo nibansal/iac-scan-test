@@ -7,7 +7,7 @@ terraform {
   }
   
   resource "aws_s3_bucket" "foo-test" {
-    buckets = "my-tf-log-bucket-test"
+    bucket = "my-tf-log-bucket-test"
     acl = "public-read-write"
   }
 
