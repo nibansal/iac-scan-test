@@ -18,7 +18,6 @@ steps:
     Medium: '1'
     Low: '1'
     Operator: 'or'
-    Tags: 'tags2:value2'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
