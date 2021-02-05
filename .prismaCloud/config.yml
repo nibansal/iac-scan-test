@@ -4,7 +4,7 @@
 # - For AWS CloudFormation: CFT
 # - For Kubernetes: K8S
 
-template_type: TF
+template_type: TA
 
 # Valid values for terraform_version are 0.11 or 0.12.
 
