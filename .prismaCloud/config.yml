@@ -5,6 +5,8 @@
 # - For Kubernetes: K8S
 
 template_type: TF
+alwaysRunFullScan: true
+
 
 # Valid values for terraform_version are 0.11 or 0.12.
 tags:
@@ -12,4 +14,3 @@ tags:
   
 excludePattern:
 - '*.csv'
-
