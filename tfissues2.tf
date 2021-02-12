@@ -2,11 +2,11 @@ terraform {
     required_version = ">= 0.12.0"
   }
   
-  provider "aws" "p2" {
-    region = "us-east-2"
-  }
-  
-  resource "aws_s3_bucket" "foo1" {
-    bucket = "my-tf-log-bucket1"
-    acl = "public-read-write"
-  }
+resource "aws_redshift_parameter_group" "bar" {
+name = "parameter-group-test-terraform"
+family = "redshift-1.0"
+parameter {
+name = "require_ssl"
+value = "false"
+}
+}
