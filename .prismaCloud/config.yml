@@ -12,5 +12,5 @@ alwaysRunFullScan: true
 tags:
   tagtest: valuetest
 excludePattern:
-- '*.csv'
+- '**/*.csv'
   
