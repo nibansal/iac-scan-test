@@ -10,4 +10,3 @@ terraform {
     bucket = "my-tf-log-bucket"
     acl = "public-read-write"
   }
-
