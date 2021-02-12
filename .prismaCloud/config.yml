@@ -9,3 +9,7 @@ template_type: TF
 # Valid values for terraform_version are 0.11 or 0.12.
 tags:
   tagtest: valuetest
+  
+excludePattern:
+- '*.csv'
+
