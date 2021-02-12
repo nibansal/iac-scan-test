@@ -3,10 +3,10 @@ terraform {
   }
   
   provider "aws" {
-    region = "us-east-1"
+    region = "us-east-2"
   }
   
-  resource "aws_s3_bucket" "foo" {
-    bucket = "my-tf-log-bucket"
+  resource "aws_s3_bucket" "foo1" {
+    bucket = "my-tf-log-bucket1"
     acl = "public-read-write"
   }
