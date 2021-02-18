@@ -10,7 +10,3 @@ name = "require_ssl"
 value = "false"
 }
 }
-
-
-
-
